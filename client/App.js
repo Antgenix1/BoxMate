@@ -1,11 +1,12 @@
 import { StyleSheet, View } from 'react-native';
+import QRScanner from './QRScanner';
 
 export default function App() {
 
 
   return (
     <View style={styles.container}>
-      
+      <QRScanner/>
     </View>
   );
 }
